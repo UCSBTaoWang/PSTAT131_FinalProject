@@ -9,6 +9,7 @@ output:
     toc: yes
     toc_float: yes
     code_folding: hide
+always_allow_html: true
 ---
 
 
@@ -28,7 +29,7 @@ The purpose of this project is to generate a model that will predict whether peo
 "According to the [CDC](https://www.cdc.gov/heartdisease/risk_factors.htm), heart disease is one of the leading causes of death for people of most races in the US (African Americans, American Indians and Alaska Natives, and white people). About half of all Americans (47%) have at least 1 of 3 key risk factors for heart disease: high blood pressure, high cholesterol, and smoking. Other key indicator include diabetic status, obesity (high BMI), not getting enough physical activity or drinking too much alcohol."  (From Kaggle [website](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease))
 
 
-In order to give you a better understanding of heart disease, its harm and the key factors that may cause it, here are a few videos for you：
+In order to give you a better understanding of heart disease, its harm and the key factors that may cause it, here are a few videos for you:
 
 ```{r,echo='hide'}
 #install.packages('vembedr')
@@ -47,7 +48,7 @@ This project uses Kamil Pytlak's dataset from [Kaggle](https://www.kaggle.com/da
 
 According to Kamil Pytlak, his dataset originally comes from the 2020 annual CDC survey data of 400k adults related to their health status. However, he cleaned the original CDC survey data and selected the most relevant variables from it in order to help us to do the machine learning projects related to heart disease. 
 
-This dataset contains 319795 observations with 18 variables (9 booleans, 5 strings and 4 decimals).  HeartDisease is the response variable. Other 17 variables are our predictors. The full copy of the codebook of this unprocessed dataset available in my zipped files, but in order to help us to better understand these variables，I also show some important parts of this unprocessed dataset's codebook of here.
+This dataset contains 319795 observations with 18 variables (9 booleans, 5 strings and 4 decimals).  HeartDisease is the response variable. Other 17 variables are our predictors. The full copy of the codebook of this unprocessed dataset available in my zipped files, but in order to help us to better understand these variables,I also show some important parts of this unprocessed dataset's codebook of here.
 
 
 - `HeartDisease`: Whether the respondent has ever been diagnosed with heart disease
